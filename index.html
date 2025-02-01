@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>week 3</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/mouse.css">
+        <script src="p5.min.js"></script>
+    </head>
+    
+    
+    <body>
+        <script src="sketch.js"></script>
+
+    <div class="mouse__info"><ul>
+        <li>clientX : <span class="clientX">0</span>px</li>
+        <li>clientY : <span class="clientY">0</span>px</li>
+        <li>offsetX : <span class="offsetX">0</span>px</li>
+        <li>offsetY : <span class="offsetY">0</span>px</li>
+        <li>pageX : <span class="pageX">0</span>px</li>
+        <li>pageY : <span class="pageY">0</span>px</li>
+        <li>screenX : <span class="screenX">0</span>px</li>
+        <li>screenY : <span class="screenY">0</span>px</li>
+    </ul></div>
+    <script>
+        window.addEventListener("mousemove", function(event){
+            document.querySelector(".clientX").innerHTML = event.clientX;
+            document.querySelector(".clientY").innerHTML = event.clientY;
+            document.querySelector(".offsetX").innerHTML = event.offsetX;
+            document.querySelector(".offsetY").innerHTML = event.offsetY;
+            document.querySelector(".pageX").innerHTML = event.pageX;
+            document.querySelector(".pageY").innerHTML = event.pageY;
+            document.querySelector(".screenX").innerHTML = event.screenX;
+            document.querySelector(".screenY").innerHTML = event.screenY;
+        });
+    </script>
+        
+    </body>
+</html>
