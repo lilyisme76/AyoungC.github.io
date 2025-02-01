@@ -1,4 +1,40 @@
-* {
-    border: 25px;
-    margin: 25px;
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    line-height: 1.6;
+    background-color: #fff9ee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #7597cd;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #001eff;
+}
+
+a:hover {
+    text-decoration: underline;
 }
